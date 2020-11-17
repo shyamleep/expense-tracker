@@ -1,0 +1,11 @@
+<table class=" table table-dark table-striped text-center">
+   <tbody>
+      {{#each expenses}}
+      <tr>
+         <td> {{this.dataValues.expense}}</td>
+         <td> {{this.dataValues.createdAt}}</td>
+      </tr>
+      {{/each}}
+   </tbody>
+
+</table>
