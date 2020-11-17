@@ -18,4 +18,8 @@ router.post("/create", (req, res, next) => {
       });
 });
 
+router.delete("/delete", (req, res, next) => {
+   
+})
+
 module.exports = router;
