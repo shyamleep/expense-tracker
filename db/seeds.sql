@@ -1,2 +1,2 @@
 INSERT INTO Log (payee, amount, category) 
-VALUES ('woohoo team', '11', '!');
+VALUES ('Amazon.com', 10.27, 'electronics');
