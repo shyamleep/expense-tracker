@@ -5,14 +5,39 @@
    </span>
    <form action="/api/expenses/create"
          method="POST">
-      <input type="text"
-             class="form-control"
-             name="expense"
-             value=""
-             placeholder="Add Your Expense"
-             id="enter_text">
+      <div class="form-row">
+         <div class="col-md-3 text-center">
+            <input type="date" 
+                   class="form-control" 
+                   name="date"
+                   value="">
+         </div>
+         <div class="col-md-3 text-center">
+            <input type="text"
+                   class="form-control"
+                   name="payee"
+                   value=""
+                   placeholder="Vendor">
+         </div>
+         <div class="col-md-1 text-center">
+            <input type="decimal"
+                   class="form-control"
+                   name="amount"
+                   value=""
+                   placeholder="Cost">
+         </div>
+         <div class="col-md-4 text-center">
+            <select class="form-control" name="category">
+               <option selected> Choose one</option>
+               <option>Utilities</option>
+               <option>Clothing/Shoes</option>
+               <option>Housewares</option>
+               <option>Groceries</option>
+            </select>
+         </div>
+      </div>
       <button type="submit"
               class="btn btn-dark"
-              id="text-enter-button">Add Expense</button>
+              id="text-enter-button">Add Your Expense</button>
    </form>
 </div>
