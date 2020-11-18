@@ -7,7 +7,7 @@ module.exports = function(sequelize, DataTypes) {
       },
 
       date: {
-         type: DataTypes.DATE(6),
+         type: DataTypes.DATEONLY,
          defaultValue: DataTypes.NOW
       },
 
