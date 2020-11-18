@@ -2,8 +2,10 @@
    <tbody>
       {{#each expenses}}
       <tr>
-         <td> {{this.dataValues.expense}}</td>
-         <td> {{this.dataValues.createdAt}}</td>
+         <td> {{this.dataValues.date}}</td>
+         <td> {{this.dataValues.payee}}</td>
+         <td> ${{this.dataValues.amount}}</td>
+         <td> {{this.dataValues.category}}</td>
       </tr>
       {{/each}}
    </tbody>
